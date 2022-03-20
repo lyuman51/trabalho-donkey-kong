@@ -1,0 +1,224 @@
+ <!DOCTYPE html>
+ <html>
+  <head>
+
+   <meta charge="UTF=8"/>
+   <meta name="viewport" content="width=device-initial scale1.0"/>
+   <link rel="stylesheet" type="text/css" href="css.estilo.css"/>
+   <title>trabalho</title>
+ 
+  </head>
+
+  <body bgcolor="#0d0609">
+   <center><canvas id = "canvas" width="1900px" height="900px"></canvas></center>
+  </body>
+
+  <script>
+
+  var c=document.getElementById("canvas");
+  var ctx=c.getContext("2d");
+
+  // config da estrutura //
+  ctx.strokeStyle = "#E81E29";
+  ctx.lineWidth = "5";  
+
+  // primeiro andar //
+  
+  // piso1 = p1 //
+  ctx.moveTo(450,800);
+  ctx.lineTo(950,800);
+  ctx.stroke();
+ 
+  ctx.moveTo(450,825);
+  ctx.lineTo(950,825);
+  ctx.stroke();
+  
+  
+  // conector p1-p2 //
+  ctx.moveTo(950,800);
+  ctx.lineTo(951,795);
+  ctx.stroke();
+  
+  ctx.moveTo(950,825);
+  ctx.lineTo(951,820);
+  ctx.stroke();
+  
+  
+  // p2 //
+  ctx.moveTo(951,820);
+  ctx.lineTo(1071,820);
+  ctx.stroke();
+  
+  ctx.moveTo(951,795);
+  ctx.lineTo(1071,795);
+  ctx.stroke();
+  
+  
+  // conector p2-p3 //
+  ctx.moveTo(1071,795);
+  ctx.lineTo(1072,790);
+  ctx.stroke();
+
+  ctx.moveTo(1071,820);
+  ctx.lineTo(1072,815);
+  ctx.stroke();
+  
+
+  // p3 //
+  ctx.moveTo(1072,815);
+  ctx.lineTo(1192,815);
+  ctx.stroke();
+  
+  ctx.moveTo(1072,790);
+  ctx.lineTo(1192,790);
+  ctx.stroke();
+  
+  
+  // conector p3-p4 //
+  ctx.moveTo(1192,790);
+  ctx.lineTo(1193,785);
+  ctx.stroke();
+  
+  ctx.moveTo(1192,815);
+  ctx.lineTo(1192,810);
+  ctx.stroke();
+  
+  
+  // p4 //
+  ctx.moveTo(1193,785);
+  ctx.lineTo(1313,785);
+  ctx.stroke(); 
+
+  ctx.moveTo(1193,810);
+  ctx.lineTo(1313,810);
+  ctx.stroke();
+  
+  
+  // conector p4-p5 //
+  ctx.moveTo(1313,785);
+  ctx.lineTo(1314,780);
+  ctx.stroke();
+  
+  ctx.moveTo(1313,810);
+  ctx.lineTo(1314,805);
+  ctx.stroke();
+  
+  
+  // p5 //
+  ctx.moveTo(1314,780);
+  ctx.lineTo(1434,780);
+  ctx.stroke();
+  
+  ctx.moveTo(1314,805);
+  ctx.lineTo(1434,805);
+  ctx.stroke();
+
+  // p6 //
+  ctx.moveTo(1434,775);
+  ctx.lineTo(1554,775);
+  ctx.stroke();
+
+  ctx.moveTo(1434,800);
+  ctx.lineTo(1554,800);
+  ctx.stroke();  
+ 
+  // p1 ladrilhado //
+  ctx.beginPath();
+  ctx.lineWidth = "3";
+  ctx.moveTo(450,825);
+  ctx.lineTo(470,800);
+  ctx.lineTo(490,825);
+  ctx.lineTo(510,800);
+  ctx.lineTo(530,825);
+  ctx.lineTo(550,800);
+  ctx.lineTo(570,825);
+  ctx.lineTo(590,800);
+  ctx.lineTo(610,825);
+  ctx.lineTo(630,800);
+  ctx.lineTo(650,825);
+  ctx.lineTo(670,800);
+  ctx.lineTo(690,825);
+  ctx.lineTo(710,800);
+  ctx.lineTo(730,825);
+  ctx.lineTo(750,800);
+  ctx.lineTo(770,825);
+  ctx.lineTo(790,800);
+  ctx.lineTo(810,825);
+  ctx.lineTo(830,800);
+  ctx.lineTo(850,825);
+  ctx.lineTo(870,800);
+  ctx.lineTo(890,825);
+  ctx.lineTo(910,800);
+  ctx.lineTo(930,825);
+  ctx.lineTo(950,800);
+  ctx.lineTo(951,820);
+  ctx.stroke();
+  
+  // p2 ladrilhado //
+  ctx.moveTo(951,795);
+  ctx.lineTo(971,820);
+  ctx.lineTo(991,795);
+  ctx.lineTo(1011,820);
+  ctx.lineTo(1031,795);
+  ctx.lineTo(1051,820);
+  ctx.lineTo(1071,795);
+  ctx.lineTo(1071,820);
+  ctx.stroke();
+  
+  // p3 ladrilho //
+  ctx.moveTo(1072,790);
+  ctx.lineTo(1092,815);
+  ctx.lineTo(1112,790);
+  ctx.lineTo(1132,815);
+  ctx.lineTo(1152,790);
+  ctx.lineTo(1172,815);
+  ctx.lineTo(1192,790);
+  ctx.lineTo(1192,815);
+  ctx.stroke();
+
+  // p4 ladrilhado //
+  ctx.moveTo(1193,785);
+  ctx.lineTo(1213,810);
+  ctx.lineTo(1233,785);
+  ctx.lineTo(1253,810);
+  ctx.lineTo(1273,785);
+  ctx.lineTo(1293,810);
+  ctx.lineTo(1313,785);
+  ctx.lineTo(1313,810);
+  ctx.stroke()
+  
+  // p5 ladrilhado //
+  ctx.moveTo(1314,780);
+  ctx.lineTo(1334,805);
+  ctx.lineTo(1354,780);
+  ctx.lineTo(1374,805);
+  ctx.lineTo(1394,780);
+  ctx.lineTo(1414,805);
+  ctx.lineTo(1434,780);
+  ctx.lineTo(1434,805);
+  ctx.stroke;
+  
+  // p6 ladrilhado //
+  ctx.moveTo(1434,775);
+  ctx.lineTo(1454,800);
+  ctx.lineTo(1474,775);
+  ctx.lineTo(1494,800);
+  ctx.lineTo(1514,775);
+  ctx.lineTo(1534,800);
+  ctx.lineTo(1554,775);
+  ctx.lineTo(1554,800);
+  ctx.stroke();
+  
+  // ultimo andar //
+  ctx.moveTo(450,100);
+  ctx.lineTo(1500,100);
+  ctx.stroke();
+
+
+
+
+
+  </script>
+
+
+ </html> 
