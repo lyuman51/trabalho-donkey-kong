@@ -1,0 +1,718 @@
+ <!DOCTYPE html>
+ <html>
+  <head>
+
+   <meta charge="UTF=8"/>
+   <meta name="viewport" content="width=device-initial scale1.0"/>
+   <link rel="stylesheet" type="text/css" href="css.estilo.css"/>
+   <title>trabalho</title>
+ 
+  </head>
+
+  <body bgcolor="#0d0609">
+   <center><canvas id = "canvas" width="1900px" height="900px"></canvas></center>
+  </body>
+
+  <script>
+
+  var c=document.getElementById("canvas");
+  var ctx=c.getContext("2d");
+
+  // config da estrutura //
+  ctx.strokeStyle = "#E81E29";
+  ctx.lineWidth = "5";  
+
+  // primeiro andar //
+  
+  // p1 //
+  ctx.moveTo(330,850);
+  ctx.lineTo(950,850);
+  ctx.stroke();
+ 
+  ctx.moveTo(330,875);
+  ctx.lineTo(950,875);
+  ctx.stroke();
+  
+  // p2 //
+  ctx.moveTo(951,870);
+  ctx.lineTo(1071,870);
+  ctx.stroke();
+  
+  ctx.moveTo(951,845);
+  ctx.lineTo(1071,845);
+  ctx.stroke();
+  
+  // p3 //
+  ctx.moveTo(1072,865);
+  ctx.lineTo(1192,865);
+  ctx.stroke();
+  
+  ctx.moveTo(1072,840);
+  ctx.lineTo(1192,840);
+  ctx.stroke();
+  
+  // p4 //
+  ctx.moveTo(1193,835);
+  ctx.lineTo(1313,835);
+  ctx.stroke(); 
+
+  ctx.moveTo(1193,860);
+  ctx.lineTo(1313,860);
+  ctx.stroke();   
+  
+  // p5 //
+  ctx.moveTo(1314,830);
+  ctx.lineTo(1434,830);
+  ctx.stroke();
+  
+  ctx.moveTo(1314,855);
+  ctx.lineTo(1434,855);
+  ctx.stroke();
+
+  // p6 //
+  ctx.moveTo(1434,825);
+  ctx.lineTo(1554,825);
+  ctx.stroke();
+
+  ctx.moveTo(1434,850); // <<< pular //
+  ctx.lineTo(1554,850);
+  ctx.stroke();
+
+  // segundo andar //
+  
+  // c1 //
+  ctx.moveTo(1314,750);
+  ctx.lineTo(1434,750);
+  ctx.stroke();
+  
+  ctx.moveTo(1314,725);
+  ctx.lineTo(1434,725);
+  ctx.stroke();
+  
+  // c2 //
+  ctx.moveTo(1314,720);
+  ctx.lineTo(1193,720);
+  ctx.stroke();
+
+  ctx.moveTo(1314,745);
+  ctx.lineTo(1193,745);
+  ctx.stroke();
+  
+  // c3  //
+  ctx.moveTo(1073,715);
+  ctx.lineTo(1193,715);
+  ctx.stroke();
+  
+  ctx.moveTo(1073,740);
+  ctx.lineTo(1193,740);
+  ctx.stroke();
+  
+  // c4 //
+  ctx.moveTo(953,710);
+  ctx.lineTo(1073,710);
+  ctx.stroke();
+  
+  ctx.moveTo(953,735);
+  ctx.lineTo(1073,735);
+  ctx.stroke();
+  
+  // c5 //
+  ctx.moveTo(833,705);
+  ctx.lineTo(953,705);
+  ctx.stroke();
+  
+  ctx.moveTo(833,730);
+  ctx.lineTo(953,730);
+  ctx.stroke();
+  
+  // c6 //
+  ctx.moveTo(833,700);
+  ctx.lineTo(713,700);
+  ctx.stroke();
+  
+  ctx.moveTo(833,725);  
+  ctx.lineTo(713,725);
+  ctx.stroke();
+  
+  // c7 //
+  ctx.moveTo(713,695);
+  ctx.lineTo(593,695);
+  ctx.stroke();
+  
+  ctx.moveTo(713,720);
+  ctx.lineTo(593,720);
+  ctx.stroke();
+  
+  // c8 //
+  ctx.moveTo(593,690);
+  ctx.lineTo(473,690);
+  ctx.stroke();
+  
+  ctx.moveTo(593,715);
+  ctx.lineTo(473,715);
+  ctx.stroke();
+  
+  // c9 //
+  ctx.moveTo(473,685);
+  ctx.lineTo(393,685);
+  ctx.stroke();
+  
+  ctx.moveTo(473,710);
+  ctx.lineTo(393,710);
+  ctx.stroke();
+ 
+  // z1 //
+  ctx.moveTo(593,590);
+  ctx.lineTo(473,590);
+  ctx.stroke();
+  
+  ctx.moveTo(593,565);
+  ctx.lineTo(473,565);
+  ctx.stroke();
+  
+  // z2 //
+  ctx.moveTo(593,585);
+  ctx.lineTo(713,585);
+  ctx.stroke();
+  
+  ctx.moveTo(593,560);
+  ctx.lineTo(713,560);
+  ctx.stroke();
+  
+  // z3 //
+  ctx.moveTo(713,580);
+  ctx.lineTo(833,580);
+  ctx.stroke();
+  
+  ctx.moveTo(713,555);
+  ctx.lineTo(833,555);
+  ctx.stroke();
+  
+  // z4 //
+  ctx.moveTo(833,575);
+  ctx.lineTo(953,575);
+  ctx.stroke();
+  
+  ctx.moveTo(833,550);
+  ctx.lineTo(953,550);
+  ctx.stroke();
+  
+  // z5 //
+  ctx.moveTo(953,570);
+  ctx.lineTo(1073,570);
+  ctx.stroke();
+  
+  ctx.moveTo(953,545);
+  ctx.lineTo(1073,545);
+  ctx.stroke();
+  
+  // z6 //
+  ctx.moveTo(1073,565);
+  ctx.lineTo(1193,565);
+  ctx.stroke();
+  
+  ctx.moveTo(1073,540);
+  ctx.lineTo(1193,540);
+  ctx.stroke();
+  
+  // z7 //
+  ctx.moveTo(1193,560);
+  ctx.lineTo(1313,560);
+  ctx.stroke();
+  
+  ctx.moveTo(1193,535);
+  ctx.lineTo(1313,535);
+  ctx.stroke();
+  
+  // z8 //
+  ctx.moveTo(1313,555);
+  ctx.lineTo(1433,555);
+  ctx.stroke();
+  
+  ctx.moveTo(1313,530);
+  ctx.lineTo(1433,530);
+  ctx.stroke();
+  
+  // z9 //
+  ctx.moveTo(1433,550);
+  ctx.lineTo(1513,550);
+  ctx.stroke();
+  
+  ctx.moveTo(1433,525);
+  ctx.lineTo(1513,525);
+  ctx.stroke();
+  
+  // j1 //
+  ctx.moveTo(1433,450);
+  ctx.lineTo(1313,450);
+  ctx.stroke();
+  
+  ctx.moveTo(1433,425);
+  ctx.lineTo(1313,425);
+  ctx.stroke();
+  
+  // j2 //
+  ctx.moveTo(1313,445);
+  ctx.lineTo(1193,445);
+  ctx.stroke();
+  
+  ctx.moveTo(1313,420);
+  ctx.lineTo(1193,420);
+  ctx.stroke();
+  
+  // j3 //
+  ctx.moveTo(1193,440);
+  ctx.lineTo(1073,440);
+  ctx.stroke();
+  
+  ctx.moveTo(1193,415);
+  ctx.lineTo(1073,415);
+  ctx.stroke();
+  
+  // j4 //
+  ctx.moveTo(1073,435);
+  ctx.lineTo(953,435);
+  ctx.stroke();
+  
+  ctx.moveTo(1073,410);
+  ctx.lineTo(953,410);
+  ctx.stroke();
+  
+  // j5 //
+  ctx.moveTo(953,430);
+  ctx.lineTo(833,430);
+  ctx.stroke();
+  
+  ctx.moveTo(953,405);
+  ctx.lineTo(833,405);
+  ctx.stroke();
+  
+  // j6 //
+  ctx.moveTo(833,425);
+  ctx.lineTo(713,425);
+  ctx.stroke();
+  
+  ctx.moveTo(833,400);
+  ctx.lineTo(713,400);
+  ctx.stroke();
+  
+  // j7 //
+  ctx.moveTo(713,420);
+  ctx.lineTo(593,420);
+  ctx.stroke();
+  
+  ctx.moveTo(713,395);
+  ctx.lineTo(593,395);
+  ctx.stroke();
+  
+  // j8 //
+  ctx.moveTo(593,415);
+  ctx.lineTo(473,415);
+  ctx.stroke();
+  
+  ctx.moveTo(593,390);
+  ctx.lineTo(473,390);
+  ctx.stroke();
+  
+  // j9 //
+  ctx.moveTo(473,410);
+  ctx.lineTo(393,410);
+  ctx.stroke();
+  
+  ctx.moveTo(473,385);
+  ctx.lineTo(393,385);
+  ctx.stroke();
+  
+  // p1 ladrilhado //
+  ctx.beginPath();
+  ctx.lineWidth = "3";
+  ctx.moveTo(450,875);
+  ctx.lineTo(470,850);
+  ctx.lineTo(490,875);
+  ctx.lineTo(510,850);
+  ctx.lineTo(530,875);
+  ctx.lineTo(550,850);
+  ctx.lineTo(570,875);
+  ctx.lineTo(590,850);
+  ctx.lineTo(610,875);
+  ctx.lineTo(630,850);
+  ctx.lineTo(650,875);
+  ctx.lineTo(670,850);
+  ctx.lineTo(690,875);
+  ctx.lineTo(710,850);
+  ctx.lineTo(730,875);
+  ctx.lineTo(750,850);
+  ctx.lineTo(770,875);
+  ctx.lineTo(790,850);
+  ctx.lineTo(810,875);
+  ctx.lineTo(830,850);
+  ctx.lineTo(850,875);
+  ctx.lineTo(870,850);
+  ctx.lineTo(890,875);
+  ctx.lineTo(910,850);
+  ctx.lineTo(930,875);
+  ctx.lineTo(950,850);
+  ctx.moveTo(450,875);
+  ctx.lineTo(430,850);
+  ctx.lineTo(410,875);
+  ctx.lineTo(390,850);
+  ctx.lineTo(370,875);
+  ctx.lineTo(350,850);
+  ctx.lineTo(330,875);
+  ctx.stroke();
+  
+  // p2 ladrilhado //
+  ctx.moveTo(951,845);
+  ctx.lineTo(971,870);
+  ctx.lineTo(991,845);
+  ctx.lineTo(1011,870);
+  ctx.lineTo(1031,845);
+  ctx.lineTo(1051,870);
+  ctx.lineTo(1071,845);
+  ctx.stroke();
+  
+  // p3 ladrilho //
+  ctx.moveTo(1072,840);
+  ctx.lineTo(1092,865);
+  ctx.lineTo(1112,840);
+  ctx.lineTo(1132,865);
+  ctx.lineTo(1152,840);
+  ctx.lineTo(1172,865);
+  ctx.lineTo(1192,840);
+  ctx.stroke();
+
+  // p4 ladrilhado //
+  ctx.moveTo(1193,835);
+  ctx.lineTo(1213,860);
+  ctx.lineTo(1233,835);
+  ctx.lineTo(1253,860);
+  ctx.lineTo(1273,835);
+  ctx.lineTo(1293,860);
+  ctx.lineTo(1313,835);
+  ctx.stroke()
+  
+  // p5 ladrilhado //
+  ctx.moveTo(1314,830);
+  ctx.lineTo(1334,855);
+  ctx.lineTo(1354,830);
+  ctx.lineTo(1374,855);
+  ctx.lineTo(1394,830);
+  ctx.lineTo(1414,855);
+  ctx.lineTo(1434,830);
+  ctx.stroke;
+  
+  // p6 ladrilhado //
+  ctx.moveTo(1434,825);
+  ctx.lineTo(1454,850);
+  ctx.lineTo(1474,825);
+  ctx.lineTo(1494,850);
+  ctx.lineTo(1514,825);
+  ctx.lineTo(1534,850);
+  ctx.lineTo(1554,825);
+  ctx.stroke();
+  
+  // c1 ladrilhado //
+  ctx.moveTo(1314,750);
+  ctx.lineTo(1334,725);
+  ctx.lineTo(1354,750);
+  ctx.lineTo(1374,725);
+  ctx.lineTo(1394,750);
+  ctx.lineTo(1414,725);
+  ctx.lineTo(1434,750);
+  ctx.stroke();
+  
+  // c2 ladrilhado //
+  ctx.moveTo(1193,745);
+  ctx.lineTo(1213,720);
+  ctx.lineTo(1233,745);
+  ctx.lineTo(1253,720);
+  ctx.lineTo(1273,745);
+  ctx.lineTo(1293,720);
+  ctx.lineTo(1313,745);
+  ctx.stroke();
+  
+  // c3 ladrilhado //
+  ctx.moveTo(1193,740);
+  ctx.lineTo(1173,715);
+  ctx.lineTo(1153,740);
+  ctx.lineTo(1133,715);
+  ctx.lineTo(1113,740);
+  ctx.lineTo(1093,715);
+  ctx.lineTo(1073,740);
+  ctx.stroke();
+  
+  // c4 ladrilhado //
+  ctx.moveTo(1073,735);
+  ctx.lineTo(1053,710);
+  ctx.lineTo(1033,735);
+  ctx.lineTo(1013,710);
+  ctx.lineTo(993,735);
+  ctx.lineTo(973,710);
+  ctx.lineTo(953,735);
+  ctx.stroke();
+  
+  // c5 ladrilhado //
+  ctx.moveTo(953,730);
+  ctx.lineTo(933,705);
+  ctx.lineTo(913,730);
+  ctx.lineTo(893,705);
+  ctx.lineTo(873,730);
+  ctx.lineTo(853,705);
+  ctx.lineTo(833,730);
+  ctx.stroke();
+  
+  // c6 ladrilhado //
+  ctx.moveTo(833,725);
+  ctx.lineTo(813,700);
+  ctx.lineTo(793,725);
+  ctx.lineTo(773,700);
+  ctx.lineTo(753,725);
+  ctx.lineTo(733,700);
+  ctx.lineTo(713,725);
+  ctx.stroke();
+  
+  // c7 ladrilhado //
+  ctx.moveTo(713,720);
+  ctx.lineTo(693,695);
+  ctx.lineTo(673,720);
+  ctx.lineTo(653,695);
+  ctx.lineTo(633,720);
+  ctx.lineTo(613,695);
+  ctx.lineTo(593,720);
+  ctx.stroke();
+  
+  // c8 ladrilhado //
+  ctx.moveTo(593,715);
+  ctx.lineTo(573,690);
+  ctx.lineTo(553,715);
+  ctx.lineTo(533,690);
+  ctx.lineTo(513,715);
+  ctx.lineTo(493,690);
+  ctx.lineTo(473,715);
+  ctx.stroke();
+    
+  // c9 ladrilhado //
+  ctx.moveTo(473,710);
+  ctx.lineTo(453,685);
+  ctx.lineTo(433,710);
+  ctx.lineTo(413,685);
+  ctx.lineTo(393,710);
+  ctx.stroke();
+  
+  // z1 ladrilhado //
+  ctx.moveTo(590,590);
+  ctx.lineTo(570,565);
+  ctx.lineTo(550,590);
+  ctx.lineTo(530,565);
+  ctx.lineTo(510,590);
+  ctx.lineTo(490,565);
+  ctx.lineTo(473,590);
+  ctx.stroke();
+  
+  // z2 ladrilhado //
+  ctx.moveTo(593,585);
+  ctx.lineTo(613,560);
+  ctx.lineTo(633,585);
+  ctx.lineTo(653,560);
+  ctx.lineTo(673,585);
+  ctx.lineTo(693,560);
+  ctx.lineTo(713,585);
+  ctx.stroke();
+  
+  // z3 ladrilhado //
+  ctx.moveTo(713,580);
+  ctx.lineTo(733,555);
+  ctx.lineTo(753,580);
+  ctx.lineTo(773,555);
+  ctx.lineTo(793,580);
+  ctx.lineTo(813,555);
+  ctx.lineTo(833,580);
+  ctx.stroke();
+  
+  // z4 ladrilhado //
+  ctx.moveTo(833,575);
+  ctx.lineTo(853,550);
+  ctx.lineTo(873,575);
+  ctx.lineTo(893,550);
+  ctx.lineTo(913,575);
+  ctx.lineTo(933,550);
+  ctx.lineTo(953,575);
+  ctx.stroke();
+  
+  // z5 ladrilhado //
+  ctx.moveTo(953,570);
+  ctx.lineTo(973,545);
+  ctx.lineTo(993,570);
+  ctx.lineTo(1013,545);
+  ctx.lineTo(1033,570);
+  ctx.lineTo(1053,545);
+  ctx.lineTo(1073,570);
+  ctx.stroke();
+  
+  // z6 ladrilhado //
+  ctx.moveTo(1073,565);
+  ctx.lineTo(1093,540);
+  ctx.lineTo(1113,565);
+  ctx.lineTo(1133,540);
+  ctx.lineTo(1153,565);
+  ctx.lineTo(1173,540);
+  ctx.lineTo(1193,565);
+  ctx.stroke();
+  
+  // z7 ladrilhado //
+  ctx.moveTo(1193,560);
+  ctx.lineTo(1213,535);
+  ctx.lineTo(1233,560);
+  ctx.lineTo(1253,535);
+  ctx.lineTo(1273,560);
+  ctx.lineTo(1293,535);
+  ctx.lineTo(1313,560);
+  ctx.stroke();
+  
+  // z8 ladrilhado //
+  ctx.moveTo(1313,555);
+  ctx.lineTo(1333,530);
+  ctx.lineTo(1353,555);
+  ctx.lineTo(1373,530);
+  ctx.lineTo(1393,555);
+  ctx.lineTo(1413,530);
+  ctx.lineTo(1433,555);
+  ctx.stroke();
+  
+  // z9 ladrilhado //
+  ctx.moveTo(1433,550);
+  ctx.lineTo(1453,525);
+  ctx.lineTo(1473,550);
+  ctx.lineTo(1493,525);
+  ctx.lineTo(1513,550);
+  ctx.stroke();
+  
+  // j1 ladrilhado //
+  ctx.moveTo(1433,450);
+  ctx.lineTo(1413,425);
+  ctx.lineTo(1393,450);
+  ctx.lineTo(1373,425);
+  ctx.lineTo(1353,450);
+  ctx.lineTo(1333,425);
+  ctx.lineTo(1313,450);
+  ctx.stroke();
+  
+  // j2 ladrilhado //
+  ctx.moveTo(1313,445);
+  ctx.lineTo(1293,420);
+  ctx.lineTo(1273,445);
+  ctx.lineTo(1253,420);
+  ctx.lineTo(1233,445);
+  ctx.lineTo(1213,420);
+  ctx.lineTo(1193,445);
+  ctx.stroke();
+  
+  // j3 ladrilhado //
+  ctx.moveTo(1193,440);
+  ctx.lineTo(1173,415);
+  ctx.lineTo(1153,440);
+  ctx.lineTo(1133,415);
+  ctx.lineTo(1113,440);
+  ctx.lineTo(1093,415);
+  ctx.lineTo(1073,440);
+  ctx.stroke();
+  
+  // j4 ladrilhado //
+  ctx.moveTo(1073,435);
+  ctx.lineTo(1053,410);
+  ctx.lineTo(1033,435);
+  ctx.lineTo(1013,410);
+  ctx.lineTo(993,435);
+  ctx.lineTo(973,410);
+  ctx.lineTo(953,435);
+  ctx.stroke();
+  
+  // j5 ladrilhado //
+  ctx.moveTo(953,430);
+  ctx.lineTo(933,405);
+  ctx.lineTo(913,430);
+  ctx.lineTo(893,405);
+  ctx.lineTo(873,430);
+  ctx.lineTo(853,405);
+  ctx.lineTo(833,430);
+  ctx.stroke();
+  
+  // j6 ladrilhado //
+  ctx.moveTo(833,425);
+  ctx.lineTo(813,400);
+  ctx.lineTo(793,425);
+  ctx.lineTo(773,400);
+  ctx.lineTo(753,425);
+  ctx.lineTo(733,400);
+  ctx.lineTo(713,425);
+  ctx.stroke();
+  
+  // j7 ladrilhado //
+  ctx.moveTo(713,420);
+  ctx.lineTo(693,395);
+  ctx.lineTo(673,420);
+  ctx.lineTo(653,395);
+  ctx.lineTo(633,420);
+  ctx.lineTo(613,395);
+  ctx.lineTo(593,420);
+  ctx.stroke();
+  
+  // j8 ladrilhado //
+  ctx.moveTo(593,415);
+  ctx.lineTo(573,390);
+  ctx.lineTo(553,415);
+  ctx.lineTo(533,390);
+  ctx.lineTo(513,415);
+  ctx.lineTo(493,390);
+  ctx.lineTo(473,415);
+  ctx.stroke();
+  
+  // j9 ladrilhado //
+  ctx.moveTo(473,410);
+  ctx.lineTo(453,385);
+  ctx.lineTo(433,410);
+  ctx.lineTo(413,385);
+  ctx.lineTo(393,410);
+  ctx.stroke();
+  
+  // escadas //
+  ctx.beginPath();
+  ctx.strokeStyle = "#25C5D3";
+  ctx.lineWidth = "4";
+  
+  // escada p5-c1 //
+  ctx.moveTo(1320,827);
+  ctx.lineTo(1320,753);
+  ctx.stroke();
+
+  ctx.moveTo(1360,827);
+  ctx.lineTo(1360,753);
+  ctx.stroke();
+
+  // escada p1-c6 //  
+  ctx.moveTo(830,847);
+  ctx.lineTo(830,728);
+  ctx.stroke();
+
+  ctx.moveTo(790,847);
+  ctx.lineTo(790,728);
+  ctx.stroke();
+  
+  // escada c8-z1 //
+  ctx.moveTo(590,593);
+  ctx.lineTo(590,687);
+  ctx.stroke();
+
+  ctx.moveTo(550,593);
+  ctx.lineTo(550,687);
+  ctx.stroke();
+  
+  
+  // ultimo andar //
+  ctx.moveTo(450,100);
+  ctx.lineTo(1500,100);
+  ctx.stroke();
+
+
+  </script>
+ </html> 
